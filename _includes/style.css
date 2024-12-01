@@ -1,0 +1,12 @@
+/*
+ * Steal from my beloved friend:
+ * https://codeberg.org/s3gfa0lt/s3gfa0lt.net/src/branch/main/output/style.css
+ */
+
+html,body{color:#ffffff;background-color:#181818;font-family:sans-serif;}
+body{margin:0 auto;max-width:40em;}
+h1{font-size:1.65rem;}
+a{color:#abd9ff;text-decoration:none;}
+nav,footer{padding:1rem 0;}
+nav{border-bottom:1px solid #333;}
+footer{border-top:1px solid #333;}
