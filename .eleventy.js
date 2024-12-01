@@ -1,8 +1,8 @@
 /* Main */
 export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
-    "_includes/style.css": "style.css",
-    "_includes/pgp.asc": "pgp.asc"
+    "root/style.css": "style.css",
+    "root/pgp.asc": "pgp.asc"
   })
 
   eleventyConfig.addFilter("readingTime", (value) => {
@@ -18,4 +18,12 @@ export default function(eleventyConfig) {
 
     return String(Math.ceil(content.length / 200))
   })
+}
+
+export const config = {
+  dir: {
+    input: "root",
+    includes: "../layouts",
+    output: "output"
+  }
 }

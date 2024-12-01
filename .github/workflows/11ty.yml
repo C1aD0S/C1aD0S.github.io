@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         id: deployment
         with:
-          path: _site
+          path: output
   deploy:
     runs-on: ubuntu-latest
     environment:

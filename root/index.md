@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.liquid
+layout: base.liquid
 ---
 
 G1aD0S
